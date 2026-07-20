@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "match_id": "series-11-room-1398",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 8,
+  "duration_seconds": 1628,
+  "winner": "player_a",
+  "result_reason": "hero_killed",
+  "final_life": {"player_a": 3, "player_b": 0},
+  "players": {
+    "player_a": {"deck_id": "FIRE-BURN-003", "deck_file": "player-a-deck.txt"},
+    "player_b": {"deck_id": "WATER-PRESSURE-LIFE-001", "deck_file": "player-b-deck.txt"}
+  },
+  "key_process": "Fair fire resources, physical pressure, and a duplicated 火球 won through repeated defenses.",
+  "issues_found": []
+}

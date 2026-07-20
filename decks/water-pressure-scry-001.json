@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "deck_id": "WATER-PRESSURE-SCRY-001",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d",
+  "parent_deck_id": "WATER-PRESSURE-WOLF-001",
+  "status": "experimental",
+  "deck_code": "4211003 // 1021011 1021011 1221007 1221007 1221001 1221001 1221003 1221003 1221004 1221004 1221006 1221006 1221009 1221009 1221011 1221011 1221013 1221013 1221014 1221014 1221016 1221016 2021014 2021014 2221004 2221004 2221008 2221008 2221009 2221009 // 3221001 3221002 3221003 3221004 3221005 3221007 3221008 3221009 3221011 3221012",
+  "plan": [
+    "Use independent water partners to pay defenses without tapping the hero.",
+    "Use 水占术 to locate early direct damage and order the next damage turn.",
+    "Convert control into a clock with 幽影寒锋, 冰雹, scrolls, and attackers."
+  ],
+  "strengths": [
+    "Strong independent defense-payment structure.",
+    "水占术 restored turn-two hero damage in its first test."
+  ],
+  "weaknesses": [
+    "Later searches did not consistently convert into continued hero damage."
+  ],
+  "evidence_matches": [
+    "series-13-room-7456"
+  ]
+}

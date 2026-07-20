@@ -1,0 +1,14 @@
+match_id,game_commit,turns,duration_seconds,winner,result_reason,player_a_deck_id,player_b_deck_id,player_a_life,player_b_life,issues_found,path
+series-01-room-2546,05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d,23,5760,player_b,hero_killed,WIND-RUSH-001,ARCANE-CONTROL-001,0,5,https://github.com/Yifeeeeei/EraOfArcaneGame/issues/109,matches/2026-07/series-01-room-2546
+series-02-room-0707,05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d,15,,player_a,hero_killed,WIND-RUSH-002,ARCANE-CONTROL-002,5,0,https://github.com/Yifeeeeei/EraOfArcaneGame/issues/110,matches/2026-07/series-02-room-0707
+series-03-room-7736,05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d,4,,player_a,hero_killed,WIND-RUSH-003,ARCANE-CONTROL-003,6,0,,matches/2026-07/series-03-room-7736
+series-04-room-7618,05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d,4,,player_a,hero_killed,WIND-RUSH-003,ARCANE-CONTROL-004,6,0,,matches/2026-07/series-04-room-7618
+series-05-room-5138,05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d,17,3538,player_a,hero_killed,WIND-RUSH-004,ARCANE-CONTROL-005,4,0,,matches/2026-07/series-05-room-5138
+series-06-room-7249,05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d,9,2110,player_b,hero_killed,WIND-RUSH-003,ARCANE-CONTROL-006,0,4,,matches/2026-07/series-06-room-7249
+series-07-room-8183,05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d,6,,player_b,hero_killed,WIND-RUSH-003,ARCANE-CONTROL-006,-1,2,https://github.com/Yifeeeeei/EraOfArcaneGame/issues/111,matches/2026-07/series-07-room-8183
+series-08-room-6138,05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d,7,1606,player_b,hero_killed,WIND-RUSH-005,ARCANE-CONTROL-006,-1,1,,matches/2026-07/series-08-room-6138
+series-09-room-0057,05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d,6,,player_b,hero_killed,FIRE-BURN-001,ARCANE-CONTROL-006,0,2,,matches/2026-07/series-09-room-0057
+series-10-room-9209,05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d,6,1920,player_a,hero_killed,FIRE-BURN-002,WATER-PRESSURE-LIFE-001,4,-1,https://github.com/Yifeeeeei/EraOfArcaneGame/issues/112,matches/2026-07/series-10-room-9209
+series-11-room-1398,05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d,8,1628,player_a,hero_killed,FIRE-BURN-003,WATER-PRESSURE-LIFE-001,3,0,,matches/2026-07/series-11-room-1398
+series-12-room-1320,05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d,10,,player_a,hero_killed,FIRE-BURN-003,WATER-PRESSURE-WOLF-001,6,0,,matches/2026-07/series-12-room-1320
+series-13-room-7456,05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d,7,,player_a,hero_killed,FIRE-BURN-004,WATER-PRESSURE-SCRY-001,5,0,,matches/2026-07/series-13-room-7456

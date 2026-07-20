@@ -1,0 +1,6 @@
+raw/*
+!raw/.gitkeep
+local/
+*.xlsx
+.DS_Store
+__pycache__/

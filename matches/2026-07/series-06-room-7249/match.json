@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "match_id": "series-06-room-7249",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 9,
+  "duration_seconds": 2110,
+  "winner": "player_b",
+  "result_reason": "hero_killed",
+  "final_life": {"player_a": 0, "player_b": 4},
+  "players": {
+    "player_a": {"deck_id": "WIND-RUSH-003", "deck_file": "player-a-deck.txt"},
+    "player_b": {"deck_id": "ARCANE-CONTROL-006", "deck_file": "player-b-deck.txt"}
+  },
+  "key_process": "幽影寒锋, 冰雹, and a rush attacker converted water control into a turn-nine finisher.",
+  "issues_found": []
+}

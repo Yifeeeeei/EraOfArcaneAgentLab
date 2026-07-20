@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "match_id": "series-02-room-0707",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 15,
+  "duration_seconds": null,
+  "winner": "player_a",
+  "result_reason": "hero_killed",
+  "final_life": {"player_a": 5, "player_b": 0},
+  "players": {
+    "player_a": {"deck_id": "WIND-RUSH-002", "deck_file": "player-a-deck.txt"},
+    "player_b": {"deck_id": "ARCANE-CONTROL-002", "deck_file": "player-b-deck.txt"}
+  },
+  "key_process": "Penetrating 霹雳惊雷 plus 速写卷轴 exhausted one defense and delivered lethal.",
+  "issues_found": ["https://github.com/Yifeeeeei/EraOfArcaneGame/issues/110"]
+}

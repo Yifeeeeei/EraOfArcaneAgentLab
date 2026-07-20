@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "match_id": "series-01-room-2546",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 23,
+  "duration_seconds": 5760,
+  "winner": "player_b",
+  "result_reason": "hero_killed",
+  "final_life": {"player_a": 0, "player_b": 5},
+  "players": {
+    "player_a": {"deck_id": "WIND-RUSH-001", "deck_file": "player-a-deck.txt"},
+    "player_b": {"deck_id": "ARCANE-CONTROL-001", "deck_file": "player-b-deck.txt"}
+  },
+  "key_process": "Control stabilized and 南海海怪 dealt repeated direct attacks on turns 20–23.",
+  "issues_found": ["https://github.com/Yifeeeeei/EraOfArcaneGame/issues/109"]
+}

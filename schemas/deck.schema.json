@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Yifeeeeei/EraOfArcaneAgentLab/schemas/deck.schema.json",
+  "title": "Era of Arcane agent deck version",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "deck_id",
+    "game_repo",
+    "game_commit",
+    "deck_code",
+    "plan",
+    "evidence_matches"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "deck_id": {"type": "string", "minLength": 1},
+    "game_repo": {"type": "string", "format": "uri"},
+    "game_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "parent_deck_id": {"type": ["string", "null"]},
+    "status": {"enum": ["active", "experimental", "retired"]},
+    "deck_code": {"type": "string", "minLength": 1},
+    "plan": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "strengths": {"type": "array", "items": {"type": "string"}},
+    "weaknesses": {"type": "array", "items": {"type": "string"}},
+    "evidence_matches": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

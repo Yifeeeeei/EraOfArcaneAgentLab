@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Yifeeeeei/EraOfArcaneAgentLab/schemas/match.schema.json",
+  "title": "Era of Arcane agent match",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "match_id",
+    "game_repo",
+    "game_commit",
+    "protocol_version",
+    "completed",
+    "turns",
+    "winner",
+    "players",
+    "key_process"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "match_id": {"type": "string", "minLength": 1},
+    "game_repo": {"type": "string", "format": "uri"},
+    "game_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "protocol_version": {"type": "integer", "minimum": 1},
+    "completed": {"type": "boolean"},
+    "turns": {"type": "integer", "minimum": 1},
+    "duration_seconds": {"type": ["integer", "null"], "minimum": 0},
+    "winner": {"enum": ["player_a", "player_b", "draw"]},
+    "result_reason": {"type": "string"},
+    "final_life": {
+      "type": "object",
+      "required": ["player_a", "player_b"],
+      "properties": {
+        "player_a": {"type": "integer"},
+        "player_b": {"type": "integer"}
+      },
+      "additionalProperties": false
+    },
+    "players": {
+      "type": "object",
+      "required": ["player_a", "player_b"],
+      "properties": {
+        "player_a": {"$ref": "#/$defs/player"},
+        "player_b": {"$ref": "#/$defs/player"}
+      },
+      "additionalProperties": false
+    },
+    "key_process": {"type": "string", "minLength": 1},
+    "issues_found": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  },
+  "$defs": {
+    "player": {
+      "type": "object",
+      "required": ["deck_file"],
+      "properties": {
+        "deck_id": {"type": ["string", "null"]},
+        "deck_file": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
