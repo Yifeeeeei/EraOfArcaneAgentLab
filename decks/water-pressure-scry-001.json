@@ -2,7 +2,7 @@
   "schema_version": 1,
   "deck_id": "WATER-PRESSURE-SCRY-001",
   "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
-  "game_commit": "05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d",
+  "game_commit": "261247af08dd681f738c8ea0ccb2f01cba5abfad",
   "parent_deck_id": "WATER-PRESSURE-WOLF-001",
   "status": "experimental",
   "deck_code": "4211003 // 1021011 1021011 1221007 1221007 1221001 1221001 1221003 1221003 1221004 1221004 1221006 1221006 1221009 1221009 1221011 1221011 1221013 1221013 1221014 1221014 1221016 1221016 2021014 2021014 2221004 2221004 2221008 2221008 2221009 2221009 // 3221001 3221002 3221003 3221004 3221005 3221007 3221008 3221009 3221011 3221012",
@@ -19,6 +19,12 @@
     "Later searches did not consistently convert into continued hero damage."
   ],
   "evidence_matches": [
-    "series-13-room-7456"
+    "series-13-room-7456",
+    "series-14-room-9544",
+    "series-15-room-3951",
+    "series-18-room-0731",
+    "series-19-room-3718",
+    "series-20-room-2976",
+    "series-21-room-8085"
   ]
 }

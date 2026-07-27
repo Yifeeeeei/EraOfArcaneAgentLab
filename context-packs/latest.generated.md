@@ -26,6 +26,14 @@ words. Each promoted rule should cite at least one Match ID.
   Match `2026-07-18-room-2342`.
 - The latest player-specific `state_sync` is authoritative. A rejected action
   does not partially advance the game.
+- Rejected normal actions do not deduct submitted payment. Apparent losses in
+  batched play came from reading a stale state after an earlier accepted
+  action. Wait for the next authoritative state before sending a dependent
+  action. Sources: `series-20-room-2976`, `series-21-room-8085` room-log audit.
+- Accepting `end_turn` does not finish cleanup when the active player still has
+  a private discard pending action. Card reset and turn ownership change only
+  after that pending action resolves. Source: `series-21-room-8085` room-log
+  audit.
 
 
 # Gameplay Principles
@@ -56,61 +64,46 @@ and revise principles when later evidence contradicts them.
   `速写卷轴` to create the second hit after the defense is horizontal. Sources:
   `series-02-room-0707`, `series-04-room-7618`.
 - Preserve off-element resources when paying wildcard costs if a later action
-  has a strict same-element expense. Source: `series-06-room-7249`.
-- Spell defenses do not answer ordinary unit attacks. Maintain a front-row
-  blocker whenever the opponent has a ready attacker. Source:
-  `series-03-room-7736`.
-- A vertical frozen unit may act once, but after becoming horizontal a long
-  freeze locks it. A stunned unit cannot overexert even when serialized as
-  vertical. Sources: `series-02-room-0707`, `series-05-room-5138`.
-- Treat hero load as fragile when the hero must also overexert for defense or
-  can be frozen. Use independent field resource sources. Sources:
 
 [truncated; retrieve the source file for more]
 
 ## Recent completed matches
 
-### series-11-room-1398
+### series-19-room-3718
 
-- Game commit: `05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d`
-- Result: `player_a`, turn 8
-- Evidence: `matches/2026-07/series-11-room-1398`
+- Game commit: `261247af08dd681f738c8ea0ccb2f01cba5abfad`
+- Result: `player_b`, turn 12
+- Evidence: `matches/2026-07/series-19-room-3718`
 
-# Series 11 — room 1398
+# series-19-room-3718
 
-- Result: A won turn 8, 3–0, official hero kill. Score A 6–B 5.
-- Fair FIRE-BURN-003 replaced bugged 锻石工匠 with 熔岩傀儡 and produced no
-  erroneous power modifiers.
-- Independent fire/earth generation preserved strict fire payments; physical
-  attacks plus a duplicated 火球 completed the game.
-- No new defect.
+- Result: Player B won on turn 12, A 0–B 4.
+- Duration: 1204 seconds.
+- Water Scry found two Krakens and the second center-front Kraken supplied the turn-12 finish; a copied horizontal Lightning Strike disappeared without resolving.
+- Confirmed issue: https://github.com/Yifeeeeei/EraOfArcaneGame/issues/125
 
-### series-12-room-1320
+### series-20-room-2976
 
-- Game commit: `05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d`
+- Game commit: `261247af08dd681f738c8ea0ccb2f01cba5abfad`
 - Result: `player_a`, turn 10
-- Evidence: `matches/2026-07/series-12-room-1320`
+- Evidence: `matches/2026-07/series-20-room-2976`
 
-# Series 12 — room 1320
+# series-20-room-2976
 
-- Result: A won by burn settlement on turn 10. Score A 7–B 5.
-- B's partner-based water payments preserved the four-water hero and extended
-  survival by two turns, but the damage axis failed to hit A at all.
-- FIRE-BURN-003 retained strict fire and applied enough repeated ignite to win
-  through blockers and two learned defenses.
-- No new defect.
+- Result: Player A won on turn 10, A 5–B 0.
+- Duration: 1045 seconds.
+- Fire removed both Krakens, exhausted Water defenses with consecutive spells, and finished through a surviving rapid attacker.
+- No newly confirmed defect in this match.
 
-### series-13-room-7456
+### series-21-room-8085
 
-- Game commit: `05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d`
-- Result: `player_a`, turn 7
-- Evidence: `matches/2026-07/series-13-room-7456`
+- Game commit: `261247af08dd681f738c8ea0ccb2f01cba5abfad`
+- Result: `player_a`, turn 20
+- Evidence: `matches/2026-07/series-21-room-8085`
 
-# Series 13 — room 7456
+# series-21-room-8085
 
-- Result: A won turn 7, 5–0. Score A 8–B 5.
-- FIRE-BURN-004 replaced one 火云法师 with 灼烧卷轴; the new card was not
-  drawn, so the change remains untested.
-- 水占术 restored B's turn-2 damage by finding 水形之束 and stacking
-  寒冰爆裂, but later activations did not sustain the clock.
-- No new defect.
+- Result: Player A won on turn 20, A 4–B 0.
+- Duration: 2647 seconds.
+- Water protected a one-life center-front Kraken with three independent defenses and attacked the Fire hero once per turn to win.
+- No newly confirmed defect in this match.

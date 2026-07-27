@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "match_id": "series-18-room-0731",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "261247af08dd681f738c8ea0ccb2f01cba5abfad",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 26,
+  "duration_seconds": 2633,
+  "winner": "player_b",
+  "result_reason": "hero_killed",
+  "final_life": {
+    "player_a": 0,
+    "player_b": 2
+  },
+  "players": {
+    "player_a": {
+      "deck_id": "WATER-PRESSURE-SCRY-001",
+      "deck_file": "player-a-deck.txt"
+    },
+    "player_b": {
+      "deck_id": "WIND-RUSH-005",
+      "deck_file": "player-b-deck.txt"
+    }
+  },
+  "key_process": "Water defended deep into empty decks but lost every attacker; Wind eventually converted repeated chain-lightning pressure into lethal.",
+  "issues_found": []
+}

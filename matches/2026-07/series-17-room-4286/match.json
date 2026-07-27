@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "match_id": "series-17-room-4286",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "261247af08dd681f738c8ea0ccb2f01cba5abfad",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 10,
+  "duration_seconds": 959,
+  "winner": "player_a",
+  "result_reason": "hero_killed",
+  "final_life": {
+    "player_a": 5,
+    "player_b": 0
+  },
+  "players": {
+    "player_a": {
+      "deck_id": "FIRE-BURN-004",
+      "deck_file": "player-a-deck.txt"
+    },
+    "player_b": {
+      "deck_id": "WIND-RUSH-005",
+      "deck_file": "player-b-deck.txt"
+    }
+  },
+  "key_process": "Fire preserved two physical attack lanes and closed on turn 10; copied attack spells illegally treated the enemy hero as a unit target.",
+  "issues_found": [
+    "https://github.com/Yifeeeeei/EraOfArcaneGame/issues/124"
+  ]
+}

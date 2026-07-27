@@ -20,3 +20,11 @@ words. Each promoted rule should cite at least one Match ID.
   Match `2026-07-18-room-2342`.
 - The latest player-specific `state_sync` is authoritative. A rejected action
   does not partially advance the game.
+- Rejected normal actions do not deduct submitted payment. Apparent losses in
+  batched play came from reading a stale state after an earlier accepted
+  action. Wait for the next authoritative state before sending a dependent
+  action. Sources: `series-20-room-2976`, `series-21-room-8085` room-log audit.
+- Accepting `end_turn` does not finish cleanup when the active player still has
+  a private discard pending action. Card reset and turn ownership change only
+  after that pending action resolves. Source: `series-21-room-8085` room-log
+  audit.

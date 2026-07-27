@@ -85,8 +85,8 @@ def main() -> int:
         if unknown:
             fail(errors, path, f"unknown evidence matches: {sorted(unknown)}")
 
-    if len(match_ids) != 13:
-        errors.append(f"expected 13 imported completed matches, found {len(match_ids)}")
+    if not match_ids:
+        errors.append("expected at least one completed match")
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1

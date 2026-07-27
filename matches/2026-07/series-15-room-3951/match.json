@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "match_id": "series-15-room-3951",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "261247af08dd681f738c8ea0ccb2f01cba5abfad",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 15,
+  "duration_seconds": 1707,
+  "winner": "player_b",
+  "result_reason": "hero_killed",
+  "final_life": {
+    "player_a": 0,
+    "player_b": 4
+  },
+  "players": {
+    "player_a": {
+      "deck_id": "WATER-PRESSURE-SCRY-001",
+      "deck_file": "player-a-deck.txt"
+    },
+    "player_b": {
+      "deck_id": "FIRE-BURN-004",
+      "deck_file": "player-b-deck.txt"
+    }
+  },
+  "key_process": "Water controlled the board but filled every slot with support units; repeated Flame Backlash defenses burned the Water hero out.",
+  "issues_found": []
+}

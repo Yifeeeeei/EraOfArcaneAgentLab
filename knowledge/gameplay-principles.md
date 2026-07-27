@@ -41,3 +41,19 @@ and revise principles when later evidence contradicts them.
 - When full state output is too large, query the private transcript for phase,
   pending action, resources, hand, and board. Never inspect the opponent's
   private transcript during the match.
+- Reserve a center-front slot for an actual attacker before committing the
+  sixth support/resource unit. Both Water and Wind produced strong control
+  boards that could not legally damage the opposing hero after their attackers
+  died. Sources: `series-15-room-3951`, `series-16-room-2570`,
+  `series-18-room-0731`.
+- Water Scry converts control into a win only when it prioritizes a protected
+  center-front finisher. The first side-lane Kraken delayed pressure; later
+  center-front Krakens won after the defense engine was established. Sources:
+  `series-19-room-3718`, `series-21-room-8085`.
+- Submit dependent headless actions one at a time and wait for the next
+  authoritative state. Batched learn/pay/summon sequences create stale-state
+  mistakes that resemble engine failures. Sources: `series-20-room-2976`,
+  `series-21-room-8085`.
+- `waiting_action` with no local `pending_action` can mean the opponent owns a
+  private reaction, such as Dolphin lethal prevention. It is not sufficient
+  evidence of a soft lock. Source: `series-20-room-2976`.

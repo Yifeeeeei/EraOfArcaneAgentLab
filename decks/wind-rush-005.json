@@ -2,7 +2,7 @@
   "schema_version": 1,
   "deck_id": "WIND-RUSH-005",
   "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
-  "game_commit": "05be3b6074b2d83e8b1bb83fc3c20c204ad37d5d",
+  "game_commit": "261247af08dd681f738c8ea0ccb2f01cba5abfad",
   "parent_deck_id": "WIND-RUSH-003",
   "status": "experimental",
   "deck_code": "4311001 // 1321001 1321001 1321002 1321002 1321004 1321004 1321007 1321007 1321008 1321008 1321009 1321011 1321011 1321013 1321016 1321016 1021001 1021001 1021011 1021011 1021013 1021013 2021012 2021012 2021014 2021014 2321009 2321009 1311003 1311003 // 3321001 3321002 3321003 3321005 3321007 3321013 3321014 3321015 3021001 3021009",
@@ -19,6 +19,10 @@
     "Independent wind resources remained less stable after removing 魔法蒲公英."
   ],
   "evidence_matches": [
-    "series-08-room-6138"
+    "series-08-room-6138",
+    "series-16-room-2570",
+    "series-17-room-4286",
+    "series-18-room-0731",
+    "series-19-room-3718"
   ]
 }
