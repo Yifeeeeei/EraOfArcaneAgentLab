@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "match_id": "series-25-room-6658",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 30,
+  "duration_seconds": 3341,
+  "winner": "draw",
+  "result_reason": "adjudicated_stable_loop",
+  "final_life": {"player_a": 2, "player_b": 6},
+  "players": {
+    "player_a": {"deck_id": "EARTH-SHIELD-MENAGERIE-001", "deck_file": "player-a-deck.txt"},
+    "player_b": {"deck_id": "WINDLESS-BLOOD-GARDEN-001", "deck_file": "player-b-deck.txt"}
+  },
+  "key_process": "Earth established a permanent shield prevention lock but no proactive clock; Shadow developed Robert too slowly and mispositioned Rose Reaper, leaving both empty-deck players in a provable stable loop.",
+  "issues_found": ["https://github.com/Yifeeeeei/EraOfArcaneGame/issues/146"]
+}

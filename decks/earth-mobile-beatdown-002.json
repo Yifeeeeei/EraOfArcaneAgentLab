@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "deck_id": "EARTH-MOBILE-BEATDOWN-002",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb",
+  "parent_deck_id": "EARTH-SHIELD-MENAGERIE-001",
+  "status": "experimental",
+  "deck_code": "4411101 // 1021011 1021011 1021013 1021013 1321013 1321013 1401002 1401002 1421013 1421013 1421102 1421102 1421104 1421111 1421113 1421113 1421114 1421114 2321011 2321011 2421002 2421002 2421008 2421008 2421009 2421009 2421110 2421110 2421111 2421112 // 3421101 3421102 3421103 3421104 3421105 3421106 3421107 3421108 3421109 3421110",
+  "plan": ["Remove the permanent lock and reserve the center lane for physical attackers.", "Use movement and reset items to maintain attack cadence."],
+  "strengths": ["Avoided the prior stable lock and removed an opposing Robert in combat."],
+  "weaknesses": ["Seven-cost attackers arrived too late; fixed-Air movement cards lacked reliable Air payment."],
+  "evidence_matches": ["series-26-room-4685"]
+}

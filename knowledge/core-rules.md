@@ -28,3 +28,11 @@ words. Each promoted rule should cite at least one Match ID.
   a private discard pending action. Card reset and turn ownership change only
   after that pending action resolves. Source: `series-21-room-8085` room-log
   audit.
+- A printed special `消耗` ability can be exposed as `has_per_turn` with a
+  `per_turn_label`. Use `use_ability` with `ability_type: per_turn`; ordinary
+  `consume` only turns the card horizontal and takes its load. Cave Elf Pickaxe
+  confirmed this distinction. Source: `series-25-room-6658`.
+- On current commit `e6908601`, drawing from an empty deck has no consequence.
+  It does not cause fatigue, defeat, or an automatic draw. Stable loops require
+  external adjudication until Issue #146 is resolved. Source:
+  `series-25-room-6658`.

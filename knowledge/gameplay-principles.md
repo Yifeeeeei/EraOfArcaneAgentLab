@@ -75,3 +75,20 @@ and revise principles when later evidence contradicts them.
   defense. Count the resulting end-step burn clock and reserve spells for a
   turn that also converts the cleared lane into unit damage. Sources:
   `series-22-room-2714`, `series-24-room-5281`.
+- Read a deck as three linked layers: engine, clock, and bridge. The engine
+  creates resources or prevention; the clock repeatedly reduces hero life; the
+  bridge converts the engine's advantage into that clock. A strong shield
+  engine without a bridge produced only a draw. Sources:
+  `series-25-room-6658`, `series-26-room-4685`.
+- Convert growth text into explicit breakpoints before playing. Robert starts
+  below zero attack and needed two three-marker growth events before becoming
+  a one-attack clock; stopping at the first trigger overvalues the engine.
+  Sources: `series-25-room-6658`, `series-26-room-4685`.
+- Reserving the center-front slot is necessary but insufficient. Plan attack
+  cadence: which unit attacks this turn, how it leaves or moves, and which
+  ready unit occupies the lane next. Spatial Shift turned an already-used
+  attacker into space for a rapid lethal attacker. Source:
+  `series-26-room-4685`.
+- An off-color movement or utility package needs recurring payment sources in
+  the main deck. Legal cards that cannot be paid on the intended turn are not
+  functional interaction. Source: `series-26-room-4685`.
