@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "match_id": "series-24-room-5281",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 9,
+  "duration_seconds": 981,
+  "winner": "player_a",
+  "result_reason": "hero_killed",
+  "final_life": {"player_a": 2, "player_b": 0},
+  "players": {
+    "player_a": {"deck_id": "ROYAL-SURVIVAL-FIRE-002", "deck_file": "player-a-deck.txt"},
+    "player_b": {"deck_id": "WIND-RUSH-007", "deck_file": "player-b-deck.txt"}
+  },
+  "key_process": "Wind's restored rapid attackers dealt early hero damage and enabled a three-spell clear, but repeated Backlash burn left Su at one and the end-step burn decided the race.",
+  "issues_found": []
+}

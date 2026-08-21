@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "deck_id": "ROYAL-SURVIVAL-FIRE-001",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb",
+  "parent_deck_id": null,
+  "status": "active",
+  "deck_code": "4111102 // 1021001 1021001 1021007 1111002 1121004 1121004 1121005 1121005 1121006 1121006 1121012 1121014 1121014 1121103 1121103 2021002 2021002 2111002 2111102 2121002 2121002 2121003 2121004 2121004 2121009 2121009 2121013 2121107 2121107 2121110 // 3111102 3121001 3121006 3121007 3121012 3121013 3121101 3121102 3121103 3121108",
+  "plan": ["Use 烈焰反噬 and counter traps to turn defense into burn.", "Use Kran filtering to retain answers and find Fire Arrow.", "Against healing or low spell volume, grow 原初神炎 with expendable skills."],
+  "strengths": ["Won two controlled matches against Wind Rush.", "Can finish through Fire Arrow after prolonged resource exchanges."],
+  "weaknesses": ["Range collapses when Kran or the only center source is consumed.", "High-cost resource companions make early setup fragile."],
+  "evidence_matches": ["series-22-room-2714", "series-23-room-5788"]
+}

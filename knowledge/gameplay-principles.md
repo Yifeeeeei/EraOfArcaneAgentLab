@@ -57,3 +57,21 @@ and revise principles when later evidence contradicts them.
 - `waiting_action` with no local `pending_action` can mean the opponent owns a
   private reaction, such as Dolphin lethal prevention. It is not sufficient
   evidence of a soft lock. Source: `series-20-room-2976`.
+- In Kran survival Fire, preserve `烈焰反噬` as the primary defensive burn
+  engine until the matchup clearly requires the Primal Flame plan. Do not exile
+  it merely because `原初神炎` can grow. Sources: `series-22-room-2714`,
+  `series-23-room-5788`, `series-24-room-5281`.
+- Treat spell range and spell payment as separate resources. Keep a vertical
+  unit in the needed lane while paying from equipment, side-lane units, or
+  other independent sources; consuming Kran can otherwise strand a fully paid
+  attack with no legal target. Sources: `series-22-room-2714`,
+  `series-23-room-5788`.
+- Wind Rush is a unit-tempo deck with spell clearing, not a spell-burn deck.
+  Generic Wind attack spells clear blockers but do not replace a ready physical
+  attacker for hero damage. Reducing attacker density improved resources but
+  removed the finish; restoring rapid attackers produced immediate hero damage.
+  Sources: `series-23-room-5788`, `series-24-room-5281`.
+- Against repeated `烈焰反噬`, do not feed every low-value spell into the same
+  defense. Count the resulting end-step burn clock and reserve spells for a
+  turn that also converts the cleared lane into unit damage. Sources:
+  `series-22-room-2714`, `series-24-room-5281`.

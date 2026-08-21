@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "match_id": "series-23-room-5788",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 15,
+  "duration_seconds": 2137,
+  "winner": "player_a",
+  "result_reason": "hero_killed",
+  "final_life": {"player_a": 2, "player_b": 0},
+  "players": {
+    "player_a": {"deck_id": "ROYAL-SURVIVAL-FIRE-001", "deck_file": "player-a-deck.txt"},
+    "player_b": {"deck_id": "WIND-RUSH-006", "deck_file": "player-b-deck.txt"}
+  },
+  "key_process": "Wind repeatedly cleared Fire's blockers with multi-spell turns, but lacked legal hero spell damage; Fire preserved range and payment sources, then burn marks ended the race.",
+  "issues_found": []
+}

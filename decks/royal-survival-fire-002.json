@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "deck_id": "ROYAL-SURVIVAL-FIRE-002",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb",
+  "parent_deck_id": "ROYAL-SURVIVAL-FIRE-001",
+  "status": "experimental",
+  "deck_code": "4111102 // 1021001 1021001 1021007 1111002 1121004 1121005 1121005 1121006 1121006 1121012 1121014 1121014 1121103 1121103 1121108 2021002 2021002 2111002 2111102 2121002 2121002 2121003 2121004 2121004 2121009 2121009 2121013 2121107 2121107 2121110 // 3111102 3121001 3121006 3121007 3121012 3121013 3121101 3121102 3121103 3121108",
+  "plan": ["Retain the version-001 core.", "Use Fire Butterfly as a cheaper two-life range node and fire source."],
+  "strengths": ["The one-card substitution did not disrupt the core plan."],
+  "weaknesses": ["Fire Butterfly was not drawn, so its intended benefit is unverified."],
+  "evidence_matches": ["series-24-room-5281"]
+}

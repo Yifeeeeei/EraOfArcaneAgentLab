@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "deck_id": "WIND-RUSH-007",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb",
+  "parent_deck_id": "WIND-RUSH-006",
+  "status": "experimental",
+  "deck_code": "4311001 // 1321001 1321001 1321002 1321002 1321003 1321003 1321004 1321004 1321008 1321008 1321009 1321011 1321011 1321013 1321016 1321016 1021001 1021001 1021011 1021011 1021013 1021013 2021012 2021012 2021014 2021014 2321009 2321009 1311003 1311003 // 3321001 3321002 3321003 3321005 3321007 3321013 3321014 3321015 3021001 3021009",
+  "plan": ["Use rapid Slayers for immediate hero pressure.", "Clear blockers in the same turn as a ready attacker.", "Use Warrior, Wind Demon, and Su ultimate as the finish."],
+  "strengths": ["Produced hero damage on turns one and three and completed a three-spell clear."],
+  "weaknesses": ["Warrior and Wind Demon were not drawn; repeated Backlash burn still won the race."],
+  "evidence_matches": ["series-24-room-5281"]
+}
