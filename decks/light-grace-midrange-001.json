@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "deck_id": "LIGHT-GRACE-MIDRANGE-001",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb",
+  "parent_deck_id": null,
+  "status": "retired",
+  "deck_code": "4511102 // 1021011 1021011 1021013 1021013 1511101 1511101 1521001 1521001 1521002 1521002 1521006 1521006 1521008 1521008 1521016 1521016 1521102 1521102 1521103 1521103 1521107 1521107 2521014 2521014 2521105 2521105 2521106 2521106 2521111 2521111 // 3511102 3521001 3521003 3521007 3521008 3521013 3521014 3521105 3521106 3521108",
+  "plan": ["Grow and preserve a durable Light attacker with Blessing Staff and Healing Warlock.", "Use Glory and Light Wave to clear blockers."],
+  "strengths": ["The compact Staff-Warlock engine preserved a grown attacker and Glory removed two clean priority blockers."],
+  "weaknesses": ["Produced only one clean hero damage before a contaminated terminal loop; healing density exceeded lane-access density."],
+  "evidence_matches": ["series-28-room-8508"]
+}

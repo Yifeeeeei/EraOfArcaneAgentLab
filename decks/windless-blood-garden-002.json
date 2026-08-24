@@ -8,6 +8,6 @@
   "deck_code": "4611101 // 1021011 1021011 1021013 1021013 1611102 1611102 1611103 1611103 1621001 1621006 1621006 1621011 1621011 1621016 1621016 1621107 1621107 1621112 1621112 1621113 2611001 2611001 2621005 2621006 2621101 2621101 2621108 2621108 2621109 2621109 // 3021001 3021008 3621001 3621003 3621004 3621010 3621013 3621101 3621102 3621103",
   "plan": ["Reach Robert's six-marker attack breakpoint.", "Use real attackers and Spatial Shift to recycle the center lane.", "Stop self-damage once the board presents a lethal clock."],
   "strengths": ["Won on turn 10 with full hero life; Spatial Shift converted the lane into three separate damage opportunities."],
-  "weaknesses": ["The exact balance between sacrifice bodies and generic attackers needs more matches."],
-  "evidence_matches": ["series-26-room-4685"]
+  "weaknesses": ["In the controlled Series 27 rematch, Robert and generic attackers dealt zero hero damage; all four damage came from deathrattles."],
+  "evidence_matches": ["series-26-room-4685", "series-27-room-0313"]
 }

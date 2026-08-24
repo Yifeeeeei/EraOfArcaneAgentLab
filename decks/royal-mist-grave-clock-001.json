@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "deck_id": "ROYAL-MIST-GRAVE-CLOCK-001",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb",
+  "parent_deck_id": null,
+  "status": "experimental",
+  "deck_code": "4211101 // 1221001 1221001 1221003 1221003 1221007 1221007 1221009 1221009 1221101 1221101 1221103 1221103 1221105 1221105 1221109 1221109 1221111 1221111 1211103 1621001 1621001 1621011 1621011 1621016 1621016 1621112 1621112 2621108 2621109 2621109 // 3021001 3221002 3221009 3221011 3221103 3221104 3221105 3221106 3221108 3221109",
+  "plan": ["Use Water resources and Hidden to protect a physical clock while Shadow deathrattles and graveyard tools recover value.", "Use Ice Cone, Undertow and Spatial Shift as the bridge."],
+  "strengths": ["Coffin, Elegy, Bone Knight and Wendy spell reset all generated real card or tempo value."],
+  "weaknesses": ["No physical hero damage in 28 turns; mixed-color attack bodies missed early payment and side blockers repeatedly stopped the center clock."],
+  "evidence_matches": ["series-29-room-8857"]
+}

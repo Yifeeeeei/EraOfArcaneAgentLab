@@ -4,9 +4,9 @@ This repository contains shared play knowledge, not game implementation.
 
 - Game repository: `https://github.com/Yifeeeeei/EraOfArcaneGame`
 - Headless match protocol: `EraOfArcaneGame/docs/agent-player-protocol.md`
-- Shared history: 26 official matches. The latest five were played on game
+- Shared history: 29 official matches. The latest eight were played on game
   commit `e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb`.
-- Current score: Player A 15 wins, Player B 10 wins, 1 adjudicated draw.
+- Current score: Player A 16 wins, Player B 11 wins, 2 adjudicated draws.
 
 Read `knowledge/core-rules.md` and `knowledge/gameplay-principles.md`, then only
 the deck profiles relevant to the next match. Use `ledger/matches.csv` to
@@ -30,3 +30,9 @@ Series 25–26 started a new-deck exploration track. Earth shield versus Shadow
 growth first produced a stable loop, then both lists added proactive attack
 bridges and Shadow won on turn 10. Empty-deck stable loops are tracked in
 EraOfArcaneGame Issue #146.
+
+Series 27–29 added Earth 003, Light Grace 001/002, and Water-Shadow Grave
+Clock. Series 27–28 are contaminated by Giant Sandworm Issue #147 and must not
+be used as clean matchup results. Light 002 won the clean Series 29 on turn 28;
+the Water-Shadow value engine dealt no physical hero damage. New defects are
+tracked in Issues #148 and #149.

@@ -34,6 +34,14 @@ words. Each promoted rule should cite at least one Match ID.
   a private discard pending action. Card reset and turn ownership change only
   after that pending action resolves. Source: `series-21-room-8085` room-log
   audit.
+- A printed special `消耗` ability can be exposed as `has_per_turn` with a
+  `per_turn_label`. Use `use_ability` with `ability_type: per_turn`; ordinary
+  `consume` only turns the card horizontal and takes its load. Cave Elf Pickaxe
+  confirmed this distinction. Source: `series-25-room-6658`.
+- On current commit `e6908601`, drawing from an empty deck has no consequence.
+  It does not cause fatigue, defeat, or an automatic draw. Stable loops require
+  external adjudication until Issue #146 is resolved. Source:
+  `series-25-room-6658`.
 
 
 # Gameplay Principles
@@ -57,53 +65,51 @@ and revise principles when later evidence contradicts them.
   skills and units needed for the next offensive turn. Source:
   Match `2026-07-18-room-2342`.
 - Resolve owned pending actions before attempting normal main-phase actions.
-- Count defensive answers and their independent payment sources separately.
-  Two learned defenses backed by one usable element source still answer only
-  one threat. Sources: `series-04-room-7618`, `series-05-room-5138`.
-- Against a once-per-turn defense, lead with a normal penetrating spell and use
-  `速写卷轴` to create the second hit after the defense is horizontal. Sources:
-  `series-02-room-0707`, `series-04-room-7618`.
-- Preserve off-element resources when paying wildcard costs if a later action
 
 [truncated; retrieve the source file for more]
 
 ## Recent completed matches
 
-### series-19-room-3718
+### series-27-room-0313
 
-- Game commit: `261247af08dd681f738c8ea0ccb2f01cba5abfad`
-- Result: `player_b`, turn 12
-- Evidence: `matches/2026-07/series-19-room-3718`
+- Game commit: `e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb`
+- Result: `player_a`, turn 12
+- Evidence: `matches/2026-08/series-27-room-0313`
 
-# series-19-room-3718
+# series-27-room-0313
 
-- Result: Player B won on turn 12, A 0–B 4.
-- Duration: 1204 seconds.
-- Water Scry found two Krakens and the second center-front Kraken supplied the turn-12 finish; a copied horizontal Lightning Strike disappeared without resolving.
-- Confirmed issue: https://github.com/Yifeeeeei/EraOfArcaneGame/issues/125
+- Result: Player A won on turn 12, A 2–B 0; the result is issue-contaminated.
+- Duration: 1714 seconds.
+- Clean evidence: Earth 003 reached six Earth on turn 3 and seven on turn 4, had a legal physical attack on 11 of 12 own turns, never stranded an off-color card, and Spatial Shift directly created two attacks including lethal.
+- Controlled opponent evidence: Blood Garden 002 dealt no hero damage through Robert or generic attackers; its four damage came from deathrattles.
+- Contamination: Giant Sandworms gained Hidden from unrelated damage under [Issue #147](https://github.com/Yifeeeeei/EraOfArcaneGame/issues/147). Do not use their survival or the match win as clean strength evidence.
 
-### series-20-room-2976
+### series-28-room-8508
 
-- Game commit: `261247af08dd681f738c8ea0ccb2f01cba5abfad`
-- Result: `player_a`, turn 10
-- Evidence: `matches/2026-07/series-20-room-2976`
+- Game commit: `e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb`
+- Result: `draw`, turn 38
+- Evidence: `matches/2026-08/series-28-room-8508`
 
-# series-20-room-2976
+# series-28-room-8508
 
-- Result: Player A won on turn 10, A 5–B 0.
-- Duration: 1045 seconds.
-- Fire removed both Krakens, exhausted Water defenses with consecutive spells, and finished through a surviving rapid attacker.
-- No newly confirmed defect in this match.
+- Result: adjudicated draw on turn 38; no official `game_over` and no matchup-strength inference.
+- Duration: 3379 seconds.
+- Clean Light evidence: Staff plus Healing Warlock preserved one grown attacker, and two Glory Scrolls cleanly removed priority blockers. Only one clean physical hero damage was produced, so the list built an exchange engine rather than a repeatable clock.
+- The terminal state combined empty-deck nontermination [#146](https://github.com/Yifeeeeei/EraOfArcaneGame/issues/146) with Giant Sandworm Hidden corruption [#147](https://github.com/Yifeeeeei/EraOfArcaneGame/issues/147).
 
-### series-21-room-8085
+[truncated; retrieve the source file for more]
 
-- Game commit: `261247af08dd681f738c8ea0ccb2f01cba5abfad`
-- Result: `player_a`, turn 20
-- Evidence: `matches/2026-07/series-21-room-8085`
+### series-29-room-8857
 
-# series-21-room-8085
+- Game commit: `e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb`
+- Result: `player_b`, turn 28
+- Evidence: `matches/2026-08/series-29-room-8857`
 
-- Result: Player A won on turn 20, A 4–B 0.
-- Duration: 2647 seconds.
-- Water protected a one-life center-front Kraken with three independent defenses and attacked the Fire hero once per turn to win.
-- No newly confirmed defect in this match.
+# series-29-room-8857
+
+- Result: Player B won officially on turn 28, A -1–B 3.
+- Duration: 3818 seconds.
+- Light 002 dealt its first clean physical hero damage on turn 4. Its active package improved over Light 001, and the final bridge was Moon Dust removing Hidden, Holy Wing clearing the blocker, then Lundesar attacking for lethal.
+- Water-Shadow's Coffin, Elegy, Bone Knight, Hidden and spell-reset packages all generated value, but its first hero damage arrived only on turn 14 via deathrattle; it dealt zero physical hero damage in 28 turns.
+- A fresh horizontal Blessing Staff reproduced the generic empty-activation defect [#149](https://github.com/Yifeeeeei/EraOfArcaneGame/issues/149).
+- Log audit corrected an Agent mistake: `defense_attempt` is not `defense_success`; Ice Cone 6 correctly beat Slash 5 on turns 14 and 15.

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "match_id": "series-27-room-0313",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 12,
+  "duration_seconds": 1714,
+  "winner": "player_a",
+  "result_reason": "hero_killed_issue_contaminated",
+  "final_life": {"player_a": 2, "player_b": 0},
+  "players": {
+    "player_a": {"deck_id": "EARTH-MOBILE-BEATDOWN-003", "deck_file": "player-a-deck.txt"},
+    "player_b": {"deck_id": "WINDLESS-BLOOD-GARDEN-002", "deck_file": "player-b-deck.txt"}
+  },
+  "key_process": "Earth reached six recurring Earth on turn 3 and seven on turn 4, maintained an attacker on 11 of 12 turns, and Spatial Shift created an extra attack plus lethal; Giant Sandworm survivability was materially inflated by Issue #147.",
+  "issues_found": ["https://github.com/Yifeeeeei/EraOfArcaneGame/issues/147"]
+}

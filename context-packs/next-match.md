@@ -1,19 +1,22 @@
 # Next Match Context
 
-Series 25–26 deliberately explored new archetypes on game commit
+Series 27–29 continued deliberate deck exploration on game commit
 `e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb`.
 
 ## Evidence
 
-- `EARTH-SHIELD-MENAGERIE-001` versus `WINDLESS-BLOOD-GARDEN-001` was
-  adjudicated a draw on turn 30. Earth built permanent prevention but no clock;
-  Shadow misread Robert's growth breakpoint and misplaced Rose Reaper.
-- `EARTH-MOBILE-BEATDOWN-002` removed the lock package and added movement, but
-  its seven-cost finishers were too slow and its fixed-Air utility lacked Air
-  sources.
-- `WINDLESS-BLOOD-GARDEN-002` added real attackers and Spatial Shift, then won
-  on turn 10 at six life. Robert needed six markers to reach one attack;
-  moving an already-used center attacker opened the lane for a rapid attacker.
+- `EARTH-MOBILE-BEATDOWN-003` hit six Earth on turn 3, seven on turn 4, and
+  attacked on 11 of 12 turns in Series 27. Its Sandworm survival and victory
+  are not clean evidence because of Issue #147.
+- `LIGHT-GRACE-MIDRANGE-001` proved that Staff/Warlock is the smallest useful
+  sustain engine, but produced only one clean hero damage before a contaminated
+  loop in Series 28.
+- `LIGHT-GRACE-MIDRANGE-002` replaced pure sustain with attack and bridge cards,
+  dealt first hero damage on turn 4, and won Series 29 on turn 28. Moon Dust was
+  the decisive Hidden bridge.
+- `ROYAL-MIST-GRAVE-CLOCK-001` generated graveyard and reset value but dealt
+  zero physical hero damage in 28 turns. Its clock body and side-lane clearing
+  density were insufficient.
 
 ## General driving model
 
@@ -29,12 +32,14 @@ Before playing an unfamiliar list, identify:
 
 ## Next experiments
 
-- Iterate Earth toward lower-cost native-Earth attackers; do not add off-color
-  movement without recurring payment.
-- Keep Blood Garden 002 stable for at least one more match and measure whether
-  Robert growth or generic rapid attackers are the primary source of damage.
-- Do not intentionally reproduce the empty-deck stable loop. It is tracked in
-  EraOfArcaneGame Issue #146.
+- Do not retest Sandworm-dependent Earth strength until Issue #147 is fixed.
+- Iterate Water-Shadow by adding independently payable physical attackers and
+  side-lane removal; keep only grave pieces that convert into clock or cards.
+- Keep Light 002 stable once, measuring whether turn-4 pressure repeats and
+  whether its 28-turn finish can be shortened.
+- Treat `defense_attempt` as an attempted defense, not a success event. Read the
+  next authoritative event before drawing a conclusion.
+- Do not intentionally reproduce Issues #146–#149.
 
-Read the four new deck profiles and summaries for series 25–26. Do not preload
-raw transcripts.
+Read the relevant new deck profiles and summaries for series 27–29. Do not
+preload raw transcripts.

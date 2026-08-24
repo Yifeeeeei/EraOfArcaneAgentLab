@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "match_id": "series-28-room-8508",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 38,
+  "duration_seconds": 3379,
+  "winner": "draw",
+  "result_reason": "contaminated_adjudicated_draw",
+  "players": {
+    "player_a": {"deck_id": "EARTH-MOBILE-BEATDOWN-003", "deck_file": "player-a-deck.txt"},
+    "player_b": {"deck_id": "LIGHT-GRACE-MIDRANGE-001", "deck_file": "player-b-deck.txt"}
+  },
+  "key_process": "Both decks emptied into a stable one-damage-versus-one-heal loop after Giant Sandworm Hidden corruption removed legal interaction; the match was adjudicated a contaminated draw and excluded from strength comparisons.",
+  "issues_found": [
+    "https://github.com/Yifeeeeei/EraOfArcaneGame/issues/146",
+    "https://github.com/Yifeeeeei/EraOfArcaneGame/issues/147",
+    "https://github.com/Yifeeeeei/EraOfArcaneGame/issues/148",
+    "https://github.com/Yifeeeeei/EraOfArcaneGame/issues/149"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "match_id": "series-29-room-8857",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 28,
+  "duration_seconds": 3818,
+  "winner": "player_b",
+  "result_reason": "hero_killed",
+  "final_life": {"player_a": -1, "player_b": 3},
+  "players": {
+    "player_a": {"deck_id": "ROYAL-MIST-GRAVE-CLOCK-001", "deck_file": "player-a-deck.txt"},
+    "player_b": {"deck_id": "LIGHT-GRACE-MIDRANGE-002", "deck_file": "player-b-deck.txt"}
+  },
+  "key_process": "Light 002 converted clearing into early physical damage, then Moon Dust removed the last Hidden blocker, Holy Wing cleared it, and Lundesar attacked for lethal; Water-Shadow generated graveyard value but dealt zero physical hero damage.",
+  "issues_found": ["https://github.com/Yifeeeeei/EraOfArcaneGame/issues/149"]
+}

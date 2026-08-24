@@ -92,3 +92,11 @@ and revise principles when later evidence contradicts them.
 - An off-color movement or utility package needs recurring payment sources in
   the main deck. Legal cards that cannot be paid on the intended turn are not
   functional interaction. Source: `series-26-room-4685`.
+- A `defense_attempt` event records that a defense was submitted; it does not
+  prove success. Read the following authoritative event for `defense_success`
+  or `spell_hit` before evaluating the exchange. Source:
+  `series-29-room-8857` plus room-log confirmation.
+- Sustain is tempo only when it preserves a body that will make a legal attack
+  or supplies the bridge in the same turn. After two blocker-only turns, stop
+  adding generic healing unless it changes the clock. Sources:
+  `series-28-room-8508`, `series-29-room-8857`.
