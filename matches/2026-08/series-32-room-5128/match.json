@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "match_id": "series-32-room-5128",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "92e09fba884d4f217e07440a0eafc02723807a6b",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 12,
+  "duration_seconds": 1920,
+  "winner": "player_b",
+  "result_reason": "surrender",
+  "final_life": {"player_a": 4, "player_b": 5},
+  "players": {
+    "player_a": {"deck_id": "MONO-FIRE-FORWARD-CLOCK-001", "deck_file": "player-a-deck.txt"},
+    "player_b": {"deck_id": "WATER-FROZEN-CLOCK-002", "deck_file": "player-b-deck.txt"}
+  },
+  "key_process": "Mono-Fire eliminated payment failures and attacked on seven turns but reached the hero only once; Water 002 fixed search access and self-blocking, then established a Monster-plus-rear-Archer two-damage clock on turn 11 before Fire surrendered.",
+  "issues_found": []
+}

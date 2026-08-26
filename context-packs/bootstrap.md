@@ -4,9 +4,9 @@ This repository contains shared play knowledge, not game implementation.
 
 - Game repository: `https://github.com/Yifeeeeei/EraOfArcaneGame`
 - Headless match protocol: `EraOfArcaneGame/docs/agent-player-protocol.md`
-- Shared history: 29 official matches. The latest eight were played on game
-  commit `e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb`.
-- Current score: Player A 16 wins, Player B 11 wins, 2 adjudicated draws.
+- Shared history: 32 official matches. The latest three were played on game
+  commit `92e09fba884d4f217e07440a0eafc02723807a6b`.
+- Current score: Player A 16 wins, Player B 14 wins, 2 adjudicated draws.
 
 Read `knowledge/core-rules.md` and `knowledge/gameplay-principles.md`, then only
 the deck profiles relevant to the next match. Use `ledger/matches.csv` to
@@ -36,3 +36,9 @@ Clock. Series 27–28 are contaminated by Giant Sandworm Issue #147 and must not
 be used as clean matchup results. Light 002 won the clean Series 29 on turn 28;
 the Water-Shadow value engine dealt no physical hero damage. New defects are
 tracked in Issues #148 and #149.
+
+Issues #147–#150 were fixed on `20be3cd`; Series 30 cleanly verified Giant
+Sandworm damage, decay, and removal behavior. Series 30–32 then showed that raw
+attack count is a poor clock proxy: multiple decks attacked frequently while
+replacement fronts absorbed every hit. Coordinate input validation gap #153
+was discovered through a malformed headless payload.

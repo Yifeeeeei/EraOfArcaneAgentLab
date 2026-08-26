@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "deck_id": "WATER-FROZEN-CLOCK-002",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "92e09fba884d4f217e07440a0eafc02723807a6b",
+  "parent_deck_id": "WATER-FROZEN-CLOCK-001",
+  "status": "active",
+  "deck_code": "4211102 // 1021011 1021011 1021013 1021013 1211001 1211001 1211103 1211103 1221001 1221001 1221004 1221004 1221007 1221007 1221009 1221009 1221012 1221012 1221103 1221103 1221109 1221109 1221112 1221112 1221113 1221113 2221014 2221014 2221109 2221109 // 3201001 3221002 3221003 3221004 3221007 3221009 3221012 3221101 3221108 3221109",
+  "plan": ["Replace unit-only scrolls with searchable Water attackers.", "Keep the rear Archer's full column clear and use Sophia only as a one-shot bridge."],
+  "strengths": ["Mermaid/Scry produced five targeted companion accesses; no self-obstruction occurred; Monster plus rear Archer created a two-damage clock."],
+  "weaknesses": ["First hero damage was still delayed to turn 11; only one of three clear sequences converted by the next turn."],
+  "evidence_matches": ["series-32-room-5128"]
+}

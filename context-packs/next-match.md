@@ -1,22 +1,21 @@
 # Next Match Context
 
-Series 27–29 continued deliberate deck exploration on game commit
-`e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb`.
+Series 30–32 continued deliberate deck exploration on game commit
+`92e09fba884d4f217e07440a0eafc02723807a6b`.
 
 ## Evidence
 
-- `EARTH-MOBILE-BEATDOWN-003` hit six Earth on turn 3, seven on turn 4, and
-  attacked on 11 of 12 turns in Series 27. Its Sandworm survival and victory
-  are not clean evidence because of Issue #147.
-- `LIGHT-GRACE-MIDRANGE-001` proved that Staff/Warlock is the smallest useful
-  sustain engine, but produced only one clean hero damage before a contaminated
-  loop in Series 28.
-- `LIGHT-GRACE-MIDRANGE-002` replaced pure sustain with attack and bridge cards,
-  dealt first hero damage on turn 4, and won Series 29 on turn 28. Moon Dust was
-  the decisive Hidden bridge.
-- `ROYAL-MIST-GRAVE-CLOCK-001` generated graveyard and reset value but dealt
-  zero physical hero damage in 28 turns. Its clock body and side-lane clearing
-  density were insufficient.
+- `EARTH-MOBILE-BEATDOWN-003` passed the post-#147 Sandworm retest. It attacked
+  often but converted only three hero damage before late support draws lost the
+  board.
+- `LIGHT-GRACE-MIDRANGE-002` won Series 30 with zero hero damage: 17 successful
+  attacks all hit replacement units. Board control is not a clock.
+- `ROYAL-MIST-GRAVE-CLOCK-002` is retired. A Water-only hero cannot support its
+  remaining explicit Dark and Water-five/six package consistently.
+- `WATER-FROZEN-CLOCK-002` fixed search access and self-obstruction. Its Monster
+  plus rear Archer formed a repeat clock, but first hero damage arrived turn 11.
+- `MONO-FIRE-FORWARD-CLOCK-001` proved payment closure is necessary but not
+  sufficient: seven attack turns produced only one direct-item hero damage.
 
 ## General driving model
 
@@ -32,14 +31,14 @@ Before playing an unfamiliar list, identify:
 
 ## Next experiments
 
-- Do not retest Sandworm-dependent Earth strength until Issue #147 is fixed.
-- Iterate Water-Shadow by adding independently payable physical attackers and
-  side-lane removal; keep only grave pieces that convert into clock or cards.
-- Keep Light 002 stable once, measuring whether turn-4 pressure repeats and
-  whether its 28-turn finish can be shortened.
-- Treat `defense_attempt` as an attempted defense, not a success event. Read the
-  next authoritative event before drawing a conclusion.
-- Do not intentionally reproduce Issues #146–#149.
+- Measure `attacks created minus replacement blockers`, same-turn clear-to-hit,
+  and next-turn conversion. Do not call attack cadence a clock by itself.
+- Iterate Water Frozen 002 for same-turn conversion rather than more search.
+- Retire the mixed Water-Shadow line unless its Dark production is rebuilt from
+  the opening economy upward.
+- A Fire revision needs movement, penetration, rapid replacement, or direct
+  reach that functions after clearing—not more raw Fire production.
+- Missing coordinate fields must be avoided until Issue #153 is fixed.
 
-Read the relevant new deck profiles and summaries for series 27–29. Do not
+Read the relevant new deck profiles and summaries for series 30–32. Do not
 preload raw transcripts.

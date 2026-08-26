@@ -70,46 +70,44 @@ and revise principles when later evidence contradicts them.
 
 ## Recent completed matches
 
-### series-27-room-0313
+### series-30-room-4994
 
-- Game commit: `e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb`
-- Result: `player_a`, turn 12
-- Evidence: `matches/2026-08/series-27-room-0313`
+- Game commit: `92e09fba884d4f217e07440a0eafc02723807a6b`
+- Result: `player_b`, turn 21
+- Evidence: `matches/2026-08/series-30-room-4994`
 
-# series-27-room-0313
+# series-30-room-4994
 
-- Result: Player A won on turn 12, A 2–B 0; the result is issue-contaminated.
-- Duration: 1714 seconds.
-- Clean evidence: Earth 003 reached six Earth on turn 3 and seven on turn 4, had a legal physical attack on 11 of 12 own turns, never stranded an off-color card, and Spatial Shift directly created two attacks including lethal.
-- Controlled opponent evidence: Blood Garden 002 dealt no hero damage through Robert or generic attackers; its four damage came from deathrattles.
-- Contamination: Giant Sandworms gained Hidden from unrelated damage under [Issue #147](https://github.com/Yifeeeeei/EraOfArcaneGame/issues/147). Do not use their survival or the match win as clean strength evidence.
+- Result: Player B won by legal surrender on turn 21; both heroes remained at 6.
+- Duration: 2323 seconds.
+- Giant Sandworm Issue #147 passed: three real damage events produced three correct Hidden gains, unrelated/prevented damage produced none, and decay plus Moon Dust removal were correct.
+- Earth attacked on 75% of measured turns but dealt only three physical hero damage. Light made 17 successful physical attacks and dealt zero hero damage; every attack was spent on units.
+- A malformed coordinate payload exposed strict-input gap [#153](https://github.com/Yifeeeeei/EraOfArcaneGame/issues/153). It was not a targeting or Sandworm defect.
 
-### series-28-room-8508
+### series-31-room-2835
 
-- Game commit: `e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb`
-- Result: `draw`, turn 38
-- Evidence: `matches/2026-08/series-28-room-8508`
+- Game commit: `92e09fba884d4f217e07440a0eafc02723807a6b`
+- Result: `player_b`, turn 9
+- Evidence: `matches/2026-08/series-31-room-2835`
 
-# series-28-room-8508
+# series-31-room-2835
 
-- Result: adjudicated draw on turn 38; no official `game_over` and no matchup-strength inference.
-- Duration: 3379 seconds.
-- Clean Light evidence: Staff plus Healing Warlock preserved one grown attacker, and two Glory Scrolls cleanly removed priority blockers. Only one clean physical hero damage was produced, so the list built an exchange engine rather than a repeatable clock.
-- The terminal state combined empty-deck nontermination [#146](https://github.com/Yifeeeeei/EraOfArcaneGame/issues/146) with Giant Sandworm Hidden corruption [#147](https://github.com/Yifeeeeei/EraOfArcaneGame/issues/147).
+- Result: Player B won by legal surrender on turn 9, A 4–B 6.
+- Duration: 874 seconds.
+- Water-Shadow 002 used two Arcane Bombs effectively but attacked only once in seven eligible turns and dealt zero hero damage. Explicit Dark and Water-five/six costs remained stranded behind a four-Water hero.
+- Frozen Clock 001 dealt hero damage on turns 1 and 2 with one Rapid Slayer. Sophia's one-use freeze bridge correctly killed a blocker, but zero of three clears converted into a later hero hit.
+- A rear Archer was blocked by its owner's center-front unit. Rear attack permission does not bypass a friendly unit in the same line.
 
-[truncated; retrieve the source file for more]
+### series-32-room-5128
 
-### series-29-room-8857
+- Game commit: `92e09fba884d4f217e07440a0eafc02723807a6b`
+- Result: `player_b`, turn 12
+- Evidence: `matches/2026-08/series-32-room-5128`
 
-- Game commit: `e6908601d0ffd7f538d6eae22d9bd7c18d5c8ecb`
-- Result: `player_b`, turn 28
-- Evidence: `matches/2026-08/series-29-room-8857`
+# series-32-room-5128
 
-# series-29-room-8857
-
-- Result: Player B won officially on turn 28, A -1–B 3.
-- Duration: 3818 seconds.
-- Light 002 dealt its first clean physical hero damage on turn 4. Its active package improved over Light 001, and the final bridge was Moon Dust removing Hidden, Holy Wing clearing the blocker, then Lundesar attacking for lethal.
-- Water-Shadow's Coffin, Elegy, Bone Knight, Hidden and spell-reset packages all generated value, but its first hero damage arrived only on turn 14 via deathrattle; it dealt zero physical hero damage in 28 turns.
-- A fresh horizontal Blessing Staff reproduced the generic empty-activation defect [#149](https://github.com/Yifeeeeei/EraOfArcaneGame/issues/149).
-- Log audit corrected an Agent mistake: `defense_attempt` is not `defense_success`; Ice Cone 6 correctly beat Slash 5 on turns 14 and 15.
+- Result: Player B won by legal surrender on turn 12, A 4–B 5.
+- Duration: 1920 seconds.
+- Mono-Fire had zero colored-payment failures, first attacked on turn 2, and attacked on seven completed turns. It still dealt only one hero damage, from Fire Arrow on turn 8; all physical attacks were absorbed by replacement fronts.
+- Frozen Clock 002 searched four Water companions with Mermaid plus one with Water Scry and made zero friendly-obstruction mistakes. Sophia remained a one-use bridge.
+- One of three clear sequences converted into a next-turn hit. South Sea Monster plus an unobstructed rear Archer dealt the first two hero damage on turn 11.

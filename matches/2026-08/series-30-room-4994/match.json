@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "match_id": "series-30-room-4994",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "92e09fba884d4f217e07440a0eafc02723807a6b",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 21,
+  "duration_seconds": 2323,
+  "winner": "player_b",
+  "result_reason": "surrender",
+  "final_life": {"player_a": 6, "player_b": 6},
+  "players": {
+    "player_a": {"deck_id": "EARTH-MOBILE-BEATDOWN-003", "deck_file": "player-a-deck.txt"},
+    "player_b": {"deck_id": "LIGHT-GRACE-MIDRANGE-002", "deck_file": "player-b-deck.txt"}
+  },
+  "key_process": "Issue #147 passed a clean retest, but both decks spent nearly every physical attack on replacement blockers; Light won the board without dealing hero damage and Earth strategically surrendered on turn 21.",
+  "issues_found": ["https://github.com/Yifeeeeei/EraOfArcaneGame/issues/153"]
+}

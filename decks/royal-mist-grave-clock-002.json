@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "deck_id": "ROYAL-MIST-GRAVE-CLOCK-002",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "92e09fba884d4f217e07440a0eafc02723807a6b",
+  "parent_deck_id": "ROYAL-MIST-GRAVE-CLOCK-001",
+  "status": "retired",
+  "deck_code": "4211101 // 1221001 1221003 1221003 1221007 1221009 1221009 1221101 1221101 1221103 1221103 1221105 1221105 1221109 1221111 1211103 1621001 1621011 1621011 1621016 1621016 1621112 1621112 2621108 2621109 1021011 1021011 1021013 1021013 2021116 2021116 // 3021001 3221002 3221009 3221011 3221103 3221104 3221105 3221106 3221109 3221110",
+  "plan": ["Replace slow grave value with neutral attackers and Arcane Bomb interaction.", "Use Water clearing to open a physical clock."],
+  "strengths": ["Two early Arcane Bombs forced Dolphin protection and then killed the opposing rapid attacker."],
+  "weaknesses": ["Water-only opening production stranded explicit Dark and Water-five/six cards; attack cadence was one of seven turns and hero damage remained zero."],
+  "evidence_matches": ["series-31-room-2835"]
+}

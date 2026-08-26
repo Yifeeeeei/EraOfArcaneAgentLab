@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "match_id": "series-31-room-2835",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "92e09fba884d4f217e07440a0eafc02723807a6b",
+  "protocol_version": 1,
+  "completed": true,
+  "turns": 9,
+  "duration_seconds": 874,
+  "winner": "player_b",
+  "result_reason": "surrender",
+  "final_life": {"player_a": 4, "player_b": 6},
+  "players": {
+    "player_a": {"deck_id": "ROYAL-MIST-GRAVE-CLOCK-002", "deck_file": "player-a-deck.txt"},
+    "player_b": {"deck_id": "WATER-FROZEN-CLOCK-001", "deck_file": "player-b-deck.txt"}
+  },
+  "key_process": "Water-Shadow removal worked but its Water-only hero stranded explicit Dark and Water-five/six cards; pure Water dealt two early rapid-attacker damage and used Sophia once to clear a frozen blocker, then won after a turn-nine surrender.",
+  "issues_found": []
+}

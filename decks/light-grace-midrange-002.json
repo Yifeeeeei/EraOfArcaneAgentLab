@@ -7,7 +7,7 @@
   "status": "active",
   "deck_code": "4511102 // 1021011 1021011 1021013 1021013 1511002 1511002 1511101 1511101 1521001 1521001 1521006 1521006 1521008 1521008 1521107 1521107 2021102 2021102 2521008 2521008 2521009 2521009 2521014 2521014 2521102 2521102 2521105 2521105 2521111 2521111 // 3021001 3511102 3521003 3521006 3521007 3521008 3521013 3521014 3521106 3521108",
   "plan": ["Retain the compact sustain engine but convert optional slots to attackers, clearing and movement.", "Stop healing when it does not preserve the current attacker or create lane access."],
-  "strengths": ["First clean physical hero damage arrived on turn 4; Moon Dust plus two physical attackers produced an explicit lethal bridge."],
-  "weaknesses": ["Still required 28 turns and both empty decks; one defensive Slash cannot also clear during the immediately following own turn."],
-  "evidence_matches": ["series-29-room-8857"]
+  "strengths": ["Won two matches and repeatedly controlled the board; sustain plus removal preserved a full late board."],
+  "weaknesses": ["Series 30 made 17 successful physical attacks but dealt zero hero damage; clear-to-hero conversion was zero despite winning by surrender."],
+  "evidence_matches": ["series-29-room-8857", "series-30-room-4994"]
 }

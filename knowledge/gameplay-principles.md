@@ -100,3 +100,13 @@ and revise principles when later evidence contradicts them.
   or supplies the bridge in the same turn. After two blocker-only turns, stop
   adding generic healing unless it changes the clock. Sources:
   `series-28-room-8508`, `series-29-room-8857`.
+- Attack cadence is not a clock by itself. Track `attacks created minus enemy
+  replacement fronts`, plus the rate at which a clear becomes a hero hit in the
+  same turn or by the next own turn. Sources: `series-30-room-4994`,
+  `series-31-room-2835`, `series-32-room-5128`.
+- A rear attacker still needs its line kept clear of friendly units. Rear attack
+  permission does not let it shoot through its own center-front body. Sources:
+  `series-31-room-2835`, `series-32-room-5128`.
+- Damage events can serialize before `OnDamaged` triggers finish. Verify marks
+  and reactive state in the immediately following authoritative state rather
+  than treating the event snapshot as final. Source: `series-30-room-4994`.

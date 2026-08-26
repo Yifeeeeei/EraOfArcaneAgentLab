@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "deck_id": "MONO-FIRE-FORWARD-CLOCK-001",
+  "game_repo": "https://github.com/Yifeeeeei/EraOfArcaneGame",
+  "game_commit": "92e09fba884d4f217e07440a0eafc02723807a6b",
+  "parent_deck_id": null,
+  "status": "experimental",
+  "deck_code": "4111001 // 1021011 1021011 1021013 1021013 1121001 1121001 1121002 1121002 1121005 1121005 1121006 1121006 1121104 1121104 1121102 1121102 2121003 2121003 2121004 2121004 2121011 2121011 2121014 2121014 2021014 2021014 2021116 2021116 2121107 2121107 // 3121001 3121002 3121003 3121004 3121007 3121008 3121012 3121013 3121105 3121109",
+  "plan": ["Use a closed mono-Fire payment base to deploy attackers every turn.", "Combine Fire clearing with a surviving physical attacker and direct Fire Arrow reach."],
+  "strengths": ["No colored-payment rejection, first attack on turn two, seven attacking turns, and stable six-to-nine Fire production."],
+  "weaknesses": ["Only one hero damage and zero physical hero damage; clearing consumed the current attacker before the opponent rebuilt its front."],
+  "evidence_matches": ["series-32-room-5128"]
+}
